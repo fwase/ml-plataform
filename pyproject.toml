@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "mini-monolithic-ml-platform"
+version = "0.0.1"
+description = ""
+authors = ["Fylype Wase"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+fastapi = "^0.115.12"
+uvicorn = "^0.34.1"
+notebook = "^7.4.1"
+ipykernel = "^6.29.5"
+pandas = "^2.2.3"
+cloudpickle = "^3.1.1"
+scikit-learn = "^1.6.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
