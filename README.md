@@ -16,9 +16,9 @@ Project to learn and discuss components of an ML Plataform. Therefore, this proj
 
 The project is divide in 5 components:
 
-- Data Wharehouse
+- Data Warehouse
 
-- Development Env
+- Development Env (Jupyter Notebooks)
 
 - Model Logging
 
