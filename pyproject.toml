@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "mini-monolithic-ml-platform"
+name = "ml-platform"
 version = "0.0.1"
 description = ""
 authors = ["Fylype Wase"]
