@@ -2,6 +2,11 @@
 
 Project to learn and discuss components of an ML Plataform. Therefore, this project will not be use in production environment, but will develop to behave as such.
 
+
+(Deixar claro que a plataforma é experimental e para fontes de estudos, não é uma forma universal de fazer uma plataforma)
+
+
+
 ### Why this name?
 
 **Mini** -> A mini/small project version
@@ -22,8 +27,48 @@ The project is divide in 5 components:
 
 - Model Logging
 
-- Model Registry
+- Model Registry (In some cases know as Model Store)
 
 - Model Serving
 
-> Note: There's a README in each component with details as architecture, flows, implementations details e etc.
+> Note: There's a README in each component with details as architecture, flows, implementations details and etc.
+
+#### Development status components
+
+- Data Warehouse: **TO DO**
+
+Simple, tables in a CSV file. Manually generated.
+
+- Development Env: **DOING**
+
+Developing base notebooks. Manually generated.
+
+- Model Logging: **DOING**
+
+Saving logging in a file. Very simple.
+
+- Model Registry: **DOING**
+
+Module with more advanced development. For now saving metadata in files. 
+
+- Model Serving: **DOING WITH ERRORS**
+
+Code generated for tests, the management of models is simple. Component incompleted and must be appears errors.
+
+
+### Missing Components
+- Feature Store (Batch e Offline)
+- Monitoring
+- Logging and Observability
+- Feature Engineering
+
+
+### Techologies and Tools
+
+| Tool      | Version     |
+| --------  | ----------  |
+| Python    | ^3.10       |
+| Pandas    | ^2.2.3      |
+| FastAPI   | ^0.115.12   |
+| Sklearn   | ^1.6.1      |
+| Notebook  | ^0.115.12   |
