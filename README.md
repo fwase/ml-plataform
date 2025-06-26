@@ -2,11 +2,6 @@
 
 Project to learn and discuss components of an ML Plataform. Therefore, this project will not be use in production environment, but will develop to behave as such.
 
-
-(Deixar claro que a plataforma é experimental e para fontes de estudos, não é uma forma universal de fazer uma plataforma)
-
-
-
 ### Why this name?
 
 **Mini** -> A mini/small project version
