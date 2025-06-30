@@ -8,4 +8,7 @@ Saving metadata informations: model name, if model was published, total of featu
 
 # Next steps
 
-To define
+- Add database (PostgreSQL) and ORM (SQLAlchemy)
+- Add Docker-compose
+- Add Custom Exceptions
+- Add examples in Jupyter Environment
