@@ -18,7 +18,7 @@ class ModelRepository:
         """
         This strategy loads all models
         """
-        all_models_metadata = ModelRegistry.list_all_models_metadata()
+        all_models_metadata = ModelRegistry.list_all()
         for model_metadata in all_models_metadata:
             if model_metadata.get("published", False):
                 model_name = model_metadata.get("name")
